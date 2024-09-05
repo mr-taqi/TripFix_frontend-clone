@@ -1,0 +1,208 @@
+#ak-travel-stories {
+  .ak_upbox {
+    display: flex;
+    justify-content: space-between;
+
+    h2 {
+      margin: 0px;
+      width: 210.5px;
+      height: 45px;
+      padding-top: 5px;
+      padding-left: 15px;
+      font-family: Inter;
+      font-size: 29.65px;
+      font-weight: 700;
+      line-height: 45px;
+      color: #05073c;
+    }
+
+    p {
+      padding-top: 21.88px;
+      padding-right: 40.8px;
+      width: 44.79px;
+      height: 28.13px;
+      font-family: Inter;
+      font-size: 14.3px;
+      font-weight: 400;
+      color: #05073c;
+    }
+    P:hover{
+      color:red;
+    }
+  }
+
+  .ak_cardbox {
+    display: flex;
+    gap: 30px;
+
+    img {
+      width: 409.98px;
+      height: 299.98px;
+      border-radius: 12px;
+    }
+
+    p {
+      color: #05073c;
+    }
+
+    .ak_card1 {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      position: relative;
+      transition: 1s ease;
+      &:hover {
+        transform: scale(1.02);
+      }
+
+      .ak-trip1 {
+        width: 62.17px;
+        height: 36.25px;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        padding: 9px 14.8px 9.25px 15px;
+        border-radius: 200px;
+        opacity: 0px;
+        background: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p {
+          width: 32.37px;
+          font-family: Inter;
+          font-size: 13.56px;
+          font-weight: 500;
+          line-height: 26.25px;
+          color: #05073c;
+        }
+      }
+
+      span {
+        width: 1px;
+        height: 26px;
+        color: #e7e6e6;
+      }
+
+      h3 {
+        width: 366.92px;
+        height: 51px;
+        font-family: Inter;
+        font-size: 17.3px;
+        font-weight: 500;
+        line-height: 27px;
+        color: #05073c;
+        &:hover {
+          color: red;
+        }
+      }
+    }
+    .ak_card2 {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      position: relative;
+      transition: 1s ease;
+      &:hover {
+        transform: scale(1.02);
+      }
+      .ak-trip2 {
+        width: 62.17px;
+        height: 36.25px;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        padding: 9px 14.8px 9.25px 15px;
+        border-radius: 200px;
+        opacity: 0px;
+        background: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p {
+          width: 32.37px;
+          font-family: Inter;
+          font-size: 13.56px;
+          font-weight: 500;
+          line-height: 26.25px;
+          color: #05073c;
+        }
+      }
+
+      span {
+        width: 1px;
+        height: 26px;
+        color: #e7e6e6;
+      }
+
+      h3 {
+        width: 377.95px;
+        height: 27px;
+        font-family: Inter;
+        font-size: 17.58px;
+        font-weight: 500;
+        line-height: 27px;
+        color: #05073c;
+        &:hover {
+          color: red;
+        }
+      }
+    }
+    .ak_card3 {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      position: relative;
+      transition: 1s ease;
+      &:hover {
+        transform: scale(1.02);
+      }
+
+      .ak-trip3 {
+        width: 62.17px;
+        height: 36.25px;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        padding: 9px 14.8px 9.25px 15px;
+        border-radius: 200px;
+        opacity: 0px;
+        background: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p {
+          width: 32.37px;
+          font-family: Inter;
+          font-size: 13.56px;
+          font-weight: 500;
+          line-height: 26.25px;
+          color: #05073c;
+        }
+      }
+
+      span {
+        width: 1px;
+        height: 26px;
+        color: #e7e6e6;
+      }
+
+      h3 {
+        width: 386.68px;
+        height: 27px;
+        font-family: Inter;
+        font-size: 17.58px;
+        font-weight: 500;
+        line-height: 27px;
+        color: #05073c;
+        &:hover {
+          color: red;
+        }
+      }
+    }
+  }
+}
+

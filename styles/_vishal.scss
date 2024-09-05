@@ -1,0 +1,90 @@
+footer {
+  font-family: Inter;
+  background-color: #fef7f4;
+  margin-top: 105px;
+  padding-bottom: 40px;
+  .contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 105px 60px 105px;
+    padding-top: 90px;
+    padding-bottom: 60px;
+    p {
+      span {
+        color: #eb662b;
+      }
+    }
+  }
+  hr {
+    width: 1290px;
+    color: lightgray;
+  }
+  .links {
+    display: flex;
+    justify-content: space-between;
+    // padding: 0 100px;
+    p {
+      font-size: 14px;
+    }
+    .company-link {
+      display: flex;
+      flex-direction: column;
+      margin: 0 40px;
+      a {
+        text-decoration: none;
+        color: #000000;
+        margin: 5px 0;
+        font-size: 12px;
+      }
+      .footer-input {
+        position: relative;
+        // cursor: pointer;
+        input {
+          padding: 20px 22px;
+          border: 1px solid lightgray;
+          border-radius: 10px;
+          border-right: none;
+          border-top-right-radius: none;
+          border-bottom-right-radius: none;
+          font-size: medium;
+          font-weight: 500;
+        }
+        button {
+          // position: absolute;
+          // left: 150px;
+          padding: 20px 22px;
+          background-color: rgb(255, 255, 255);
+          border: 1px solid lightgray;
+          border-left: none;
+          border-top-right-radius: 10px;
+
+          border-bottom-right-radius: 10px;
+        }
+        button:hover {
+          background-color: red;
+        }
+      }
+    }
+  }
+}
+#vk-page-end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  p {
+    font-size: 12px;
+  }
+}
+
+.links{
+  p, a{
+    font-family: Inter;
+font-size: 14.41px;
+font-weight: 400;
+line-height: 28.13px;
+text-align: left;
+margin: 0px;
+padding: 0px;
+  }
+}
